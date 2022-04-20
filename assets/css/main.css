@@ -1,0 +1,40 @@
+			
+/* * 
+{
+    box-shadow: inset 0px 0px 2px rgba(255, 0, 0, 0.9);
+} */
+.navbar {
+    font-weight: 400;
+    font-style: oblique;
+}
+.navbar ul li a {
+    /* CRIAR EFEITO FOCO SOBRE OS LINKS */
+    text-decoration: none; /*RETIRA O SUBLINHADO DE CADA ÍTEM */
+    color: #e0ffff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.4s ease; /* TEMPO ENTRE A MUDANÇA DE COR NOS LINKS QDO SE PASSA O MOUSE */
+}
+
+ 
+.homeCor {
+    color: crimson;
+    font-weight: 400;
+}
+.textoFormata {
+    text-align: justify;
+    font-weight: 300;
+}
+li a {
+    font-size: larger;
+}
+.pro-links i{
+    background-color: #5f7185;
+    color: #fff;
+}
+.pro-links i:hover{
+    color: #2c2c2c;
+    background-color: #fdc938;
+    transition: 0.2s;
+  }
+
